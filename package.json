@@ -1,0 +1,32 @@
+{
+  "name": "smart-redux",
+  "version": "1.0.0",
+  "description": "redux wrapper helping you working with redux",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "test",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "mocha-webpack --recursive --glob \"*.test.js\" test"
+  },
+  "keywords": [
+    "smart",
+    "redux",
+    "wrapper"
+  ],
+  "author": "seelikes",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "publishConfig": {
+    "registry": "http://112.74.29.196:34272/repository/npm-releases/"
+  }
+}
