@@ -27,6 +27,6 @@
     "redux-thunk": "^2.3.0"
   },
   "publishConfig": {
-    "registry": "http://112.74.29.196:34272/repository/npm-releases/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
